@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Telerik Examples</string>
+    <string name="drawerCaption">Telerik examples</string>
+    <string name="version_name">Q1 2016</string>
+    <string name="version_code">2016.1.0</string>
+    <string name="homeString">Home</string>
+    <string name="favoritesStringPascalCase">Favorites</string>
+    <string name="settingsString">Settings</string>
+    <string name="aboutString">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="allStringPascalCase">All</string>
+    <string name="allControlsStringPascalCase">All controls</string>
+    <string name="allStringAllCaps">ALL</string>
+    <string name="favoritesStringAllCaps">FAVORITES</string>
+    <string name="actionbar_section_highlighted">Highlighted</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="line_examples_title">Monthly sales revenue, (2016)</string>
+    <string name="pie_series_title">International sales by country, 2016</string>
+    <string name="area_chart_title">Monthly sales revenue, 2016</string>
+    <string name="bar_series_title">Performance summary, 2016</string>
+    <string name="scatter_series_title">Mean hourly earnings in the UK (private vs public)</string>
+    <string name="bubble_series_title">Investments - Equities &amp; Mutual Funds</string>
+    <string name="versionStringPascalCase">Version</string>
+    <string name="emptyContentString">Already have any favorite demos? Add them here by choosing \'Add to Favorites\' from the overflow menu or the example context menu.</string>
+    <string name="title_activity_view_code">View code</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="all_day_string">ALL DAY</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_range_selection_text">Select period of stay</string>
+    <string name="calendar_range_title">Need a place to stay?</string>
+    <string name="calendar_range_how_to_text">Drag over the period of your stay or tap on your check-in and check-out dates</string>
+    <string name="calendar_range_left_arrow_description">Tap to move to previous month</string>
+    <string name="calendar_range_right_arrow_description">Tap to move to next month</string>
+    <string name="list_view_reorder_empty">No tasks</string>
+    <string name="list_view_reorder_header">TASKS</string>
+    <string name="list_view_reorder_btn_list1">TO DO LIST</string>
+    <string name="list_view_reorder_btn_list2">SHOPPING LIST</string>
+    <string name="list_view_reorder_complete">complete</string>
+    <string name="list_view_reorder_delete">delete</string>
+    <string name="list_view_selection_header">Reading list</string>
+    <string name="list_view_selection_header_in_reorder">Reorder</string>
+    <string name="list_view_selection_reorder">reorder</string>
+    <string name="list_view_selection_deleted">Deleted.</string>
+    <string name="list_view_selection_fav">fav</string>
+    <string name="list_view_selection_delete">del</string>
+    <string name="list_view_selection_undo">UNDO</string>
+    <string name="list_view_selection_btn_list1">ALL</string>
+    <string name="list_view_selection_btn_list2">FAVORITES</string>
+    <string name="list_view_deck_title">NEW RECIPES</string>
+    <string name="list_view_deck_image_desc">Recipe</string>
+    <string name="list_view_slide_image_desc">Destination</string>
+    <string name="list_view_slide_enquiry">SEND ENQUIRY</string>
+    <string name="list_view_slide_attractions">Attractions</string>
+    <string name="book_a_hotel_string">Book a hotel!</string>
+    <string name="tips_presenter_content">Telerik Examples highlights the controls included in Telerik UI for Android - Chart, Calendar, DataForm, ListView and SideDrawer.</string>
+    <string name="tips_presenter_got_it_text">GOT IT!</string>
+    <string name="isn_bold"><b>ISN</b></string>
+    <string name="spinners_title">International Software Company</string>
+    <string name="indicators_range_dialog_title">Range</string>
+    <string name="indicators_custom_dialog_trends_title">SET TREND LINES</string>
+    <string name="indicators_custom_dialog_indicators_title">SET INDICATORS</string>
+    <string name="user_statistics_setting">Send anonymous usage statistics</string>
+    <string name="analytics_message_send"><b>Send statistics</b></string>
+    <string name="analytics_message_dont_send">Do not send statistics</string>
+    <string name="analytics_message">It is our goal to always provide the best products and user experience to our customers. By enabling this option anonymous data will be collected and sent to Telerik detailing how the Telerik Examples application is being used. No information is collected that could be used to either identify or contact you. \nYou can change this anytime from the Settings menu.</string>
+    <string name="could_not_change_setting">Could not change setting</string>
+    <string name="analytics_message_title">Help us improve Telerik Examples</string>
+    <string name="list_view_layout_modes_dialog_title">Choose food type</string>
+    <string name="internet_connectivity_prompt">Internet connectivity is required for this example.</string>
+    <string name="documentation">Check out the product documentation.</string>
+    <string name="documentation_example_info">Check out the documentation.</string>
+    <string name="productPage">Check out the product page.</string>
+
+    <string-array name="indicators_range_options">
+        <item>1 month</item>
+        <item>6 months</item>
+        <item>1 year</item>
+        <item>5 years</item>
+    </string-array>
+    <string-array name="indicators_range_button_text">
+        <item>Range: <b>1 M</b></item>
+        <item>Range: <b>6 M</b></item>
+        <item>Range: <b>1 Y</b></item>
+        <item>Range: <b>5 Y</b></item>
+    </string-array>
+
+</resources>

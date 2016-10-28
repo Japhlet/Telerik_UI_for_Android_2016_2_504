@@ -1,0 +1,119 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 23
+        renderscriptTargetApi 23
+        renderscriptSupportModeEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        warning 'InvalidPackage'
+    }
+
+    buildTypes {
+        release {
+            proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
+         
+        }
+    }
+    productFlavors {
+        defaultFlavor {
+            proguardFile 'proguard-rules.txt'
+        }
+    }
+
+}
+
+dependencies {
+/*
+    The latest available version of Telerik UI for Android is built with versions
+    23.1.1 and targets API 23. The suite uses features that have been added
+    with these versions which means that you need to reference the same
+    appcompat version in your build.gradle and target the same API
+    (or optionally newer versions in case they doesn't contain breaking changes).
+    Please note, that the Target API level is different than the Minimum API level.
+    UI for Android supports API 9 as a Minimum API level. Here's more about
+    the difference between Minimum and Target API Levels.
+*/
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.android.gms:play-services-analytics:7.0.0'
+    compile files('libs/java2html.jar')
+    compile files('libs/slf4j-api-1.7.7.jar')
+    compile files('libs/flickrj-android-2.1.0.jar')
+
+    compile project(':controls:Common')
+    compile project(':controls:Data')
+    compile project(':controls:Primitives')
+    compile project(':controls:Input')
+    compile project(':controls:Chart')
+    compile project(':controls:List')
+    compile project(':controls:Feedback')
+//    compile 'com.facebook.fresco:fresco:0.5.0+'
+    compile(name:'fresco-0.5.0', ext:'aar')
+    compile(name:'fbcore-0.5.0', ext:'aar')
+    compile(name:'drawee-0.5.0', ext:'aar')
+/*
+    imagepipeline-0.5.0.pom:
+   <groupId>com.facebook.fresco</groupId>
+   <artifactId>imagepipeline</artifactId>
+   <version>0.5.0</version>
+   <packaging>aar</packaging>
+   <name>ImagePipeline</name>
+
+    <dependency>
+    <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+    <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+    <artifactId>support-v4</artifactId>
+      <version>21.0.3</version>
+    <scope>compile</scope>
+    </dependency>
+    <dependency>
+    <groupId>com.facebook.fresco</groupId>
+      <artifactId>fbcore</artifactId>
+    <version>0.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.parse.bolts</groupId>
+    <artifactId>bolts-android</artifactId>
+      <version>1.1.4</version>
+    <scope>compile</scope>
+    </dependency>
+*/
+    compile files('libs/library-2.4.0.jar')
+    compile files('libs/bolts-android-1.1.4.jar')
+    compile(name:'imagepipeline-0.5.0', ext:'aar')
+}

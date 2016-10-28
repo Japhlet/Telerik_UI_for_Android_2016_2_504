@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/controls" />
+            <option value="$PROJECT_DIR$/controls/Chart" />
+            <option value="$PROJECT_DIR$/controls/Common" />
+            <option value="$PROJECT_DIR$/controls/Data" />
+            <option value="$PROJECT_DIR$/controls/Feedback" />
+            <option value="$PROJECT_DIR$/controls/Input" />
+            <option value="$PROJECT_DIR$/controls/List" />
+            <option value="$PROJECT_DIR$/controls/Primitives" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_text_color">#C4C4C4</color>
+    <color name="dark_grey_text_color">#FF838383</color>
+    <color name="light_blue">#33B5E5</color>
+    <color name="light_grey">#FFE5E5E5</color>
+    <color name="text_editor_background">#D9FFFFFF</color>
+    <color name="status_open_color">#FF8ABD00</color>
+    <color name="status_resolved_color">#FFFF9105</color>
+    <color name="progress_bar_background">#FFFFFFFF</color>
+    <color name="view_feedback_item_text_color">#FF838383</color>
+    <color name="view_feedback_item_comments_background">#C8FFFFFF</color>
+</resources>

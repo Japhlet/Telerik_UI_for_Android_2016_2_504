@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="example_list_fragment_columns">1</integer>
+    <integer name="example_list_fragment_columns_wrap">2</integer>
+    <dimen name="example_list_deck_recipe_title_size">14sp</dimen>
+    <dimen name="example_list_deck_recipe_category_size">10sp</dimen>
+    <dimen name="example_list_deck_recipe_padding">10dp</dimen>
+    <dimen name="list_view_slide_item_fab_margin">14dp</dimen>
+</resources>

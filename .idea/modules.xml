@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/controls/Chart/Chart.iml" filepath="$PROJECT_DIR$/controls/Chart/Chart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/Common/Common.iml" filepath="$PROJECT_DIR$/controls/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/Data/Data.iml" filepath="$PROJECT_DIR$/controls/Data/Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/Feedback/Feedback.iml" filepath="$PROJECT_DIR$/controls/Feedback/Feedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/Input/Input.iml" filepath="$PROJECT_DIR$/controls/Input/Input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/List/List.iml" filepath="$PROJECT_DIR$/controls/List/List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/Primitives/Primitives.iml" filepath="$PROJECT_DIR$/controls/Primitives/Primitives.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Telerik_UI_for_Android_2016_2_504.iml" filepath="$PROJECT_DIR$/Telerik_UI_for_Android_2016_2_504.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controls/controls.iml" filepath="$PROJECT_DIR$/controls/controls.iml" />
+    </modules>
+  </component>
+</project>

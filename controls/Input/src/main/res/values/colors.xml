@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="data_form_list_selected">#cccccc</color>
+    <color name="data_form_valid_validation_color">#4CAF50</color>
+    <color name="data_form_invalid_validation_color">#C73339</color>
+</resources>
